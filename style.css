@@ -1,0 +1,397 @@
+/* * {
+    box-sizing :border-box;
+    padding: 5px;
+    margin: 10px;
+   
+   
+}
+body{
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    padding: 29px;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    background-color: royalblue;
+}
+
+#template{
+    text-align: center;
+   
+} */
+/*div{
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+h2{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+p{
+    padding: 5px;
+} */
+
+/* .links{
+    padding: 10px ;
+    margin: 10px;
+}
+/* .link-0 {
+    background-color: blue;
+}
+
+.link-1 {
+    background-color: red;
+}
+
+.link-2 {
+    background-color: hotpink;
+}
+
+.link-3 {
+    background-color: gray;
+}
+
+.link-4 {
+    background-color: green;
+}
+
+.link-5 {
+    background-color: yellow;
+}
+
+.link-6 {
+    background-color: aqua;
+}
+
+.link-7 {
+    background-color: crimson;
+}
+
+.link-8 {
+    background-color: cadetblue;
+}
+.link-9 {
+    background-color: chartreuse;
+}
+
+
+.active {
+    background-color: blueviolet;
+} */
+
+
+/*.....................................LOGIN PAGE...............................*/
+
+ /* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #eee;
+    font-family:"'Times New Roman', Times, serif";
+}
+nav {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #eee;
+    height: 50px;
+    transform: translate(0px);
+    transition: ease all 0.7s;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    list-style: none;
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px;
+    color: #111;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    background: chocolate;
+    transform: scale(1);
+    transition: ease all 0.6s;
+    color: #fff;
+}
+button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: crimson;
+    height: 50px;
+    width: 90px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+#dropdown {
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    background: #fff;
+    height: 140px;
+    align-items: baseline;
+    justify-content: space-evenly;
+    display: none;
+    width: 250px;
+}
+.active {
+    display: block !important;
+}
+.active li a {
+    display: block;
+    width: 100%;
+}
+
+section article {
+    text-align: center;
+    margin: 10px;
+   
+}  */
+ /* input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: gray;
+}  */
+
+
+/* #text1{
+    height: 250px;
+    width: 250px;
+}
+
+#text2{
+    height: 250px;
+    width: 250px;
+}
+
+#template{
+    width: 1200px; ;
+    margin:0 auto ;
+    background:#fff ;
+}  */
+/* p {
+    border-bottom: 1px solid #999;
+    padding: 10px;
+    margin: 3px; }*/
+
+
+
+/*..........................FORM VALIDATION..............................*/
+
+/* 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #eee;
+    font-family:"'Times New Roman', Times, serif";
+}
+section article {
+    width: 400px;
+    background-color: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin: 100px auto;
+    padding: 20px;
+}
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    padding: 5px 0;
+    display: block;
+    font-size: 16px;
+    color: royalblue;
+
+}
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+}
+button{
+    background-color: royalblue;
+    padding: 10px 20px;
+    border: 1px solid royalblue;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 20px 0;
+    width: 100%;
+    display: block;
+
+}
+#errorMessages {
+    color: red;
+} */
+
+/*.......................................EVENT BUBBLING...................................................*/
+/* #grandparent{
+    background-color: hotpink;
+    width: 500px;
+    margin: 26px auto;
+    height: auto;
+    border: 2px solid crimson;
+    padding: 20px;
+}
+ #parent{
+    background-color: royalblue;
+    
+     padding: 20px;
+    border: 2px solid #111;
+    margin: 26px auto; 
+ }
+#child{
+    background-color: gray;
+    
+    padding: 20px;
+    border: 2px solid #111;
+    margin: 26px auto; 
+ }  
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+}
+span{
+    background: red;
+    color: white;
+    float: right;
+    padding: 0px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+span:hover{
+    background-color: purple;
+} */
+
+
+/*......................................DIGITAL CLOCK...................................................*/
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: gray;
+    
+}
+#time
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    
+}
+#time h1{
+    font-size: 100px;
+    font-weight: bold;
+} */
+
+/*.......................................LOCAL STORAGE............................................*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+section article {
+  width: 400px;
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: royalblue;
+  padding: 10px 20px;
+  border: 1px solid royalblue;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 20px 0;
+
+  display: block;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 5px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+
+#template {
+  background: #fff;
+  color: darkred;
+  padding: 10px;
+}
+
+
+
+
+
+ 

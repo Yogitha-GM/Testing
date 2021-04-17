@@ -1,0 +1,9 @@
+{
+    "name" : "yoga",
+    "age" : 22,
+    "isAvailable" : true,
+    "skills" : ["js","json","ecmascript","react"],
+    "userDetails" : {
+        "name" : "vikki"
+    }
+}
